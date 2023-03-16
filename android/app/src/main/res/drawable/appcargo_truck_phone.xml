@@ -1,0 +1,50 @@
+<vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="vector"
+        android:width="173dp"
+        android:height="188dp"
+        android:viewportWidth="173"
+        android:viewportHeight="188">
+    <group android:name="wrapper">
+        <clip-path
+                android:name="clippath855"
+                android:pathData="M -32 -24 L 205 -24 L 205 213 L -32 213 Z"/>
+        <group android:name="group">
+            <path
+                    android:name="path"
+                    android:pathData="M 90 126 C 89 135 81 144 71 145 C 62 146 54 139 55 129 C 56 119 64 110 74 110 C 84 109 91 116 90 126"
+                    android:fillColor="#243d91"
+                    android:strokeWidth="1"/>
+            <path
+                    android:name="path_1"
+                    android:pathData="M 31 77 L 29 55 L 22 56 L 25 78 Z"
+                    android:fillColor="#37aae1"
+                    android:strokeWidth="1"/>
+            <path
+                    android:name="path_2"
+                    android:pathData="M 112 34 C 112 34 112 34 111 34 L 41 43 C 41 43 41 43 41 43 L 28 45 L 27 45 C 27 45 27 45 27 45 L 11 47 C 10 47 9 48 9 49 L 8 53 C 8 54 9 55 10 55 L 21 53 C 21 53 21 53 21 53 L 29 52 L 29 55 L 25 56 L 26 67 L 3 70 C 2 70 1 71 0 74 L 0 79 C -0 81 1 81 2 81 L 21 79 L 31 77 L 32 83 L 28 83 L 28 91 L 13 93 C 12 94 11 95 11 97 L 10 102 C 9 104 11 104 12 104 L 29 102 L 29 102 L 34 101 L 34 104 L 30 105 L 31 117 L 13 119 C 12 119 11 120 11 121 L 10 126 C 10 127 11 127 12 127 L 31 125 L 31 125 C 31 126 33 128 34 128 L 47 127 C 48 127 50 126 50 125 C 52 113 63 103 74 102 C 87 101 97 110 96 123 C 96 124 96 124 96 125 L 101 124 C 102 124 103 123 103 122 L 115 38 C 115 36 113 34 112 34 Z"
+                    android:fillColor="#ffcc00"
+                    android:strokeWidth="1"/>
+            <path
+                    android:name="path_3"
+                    android:pathData="M 29 52 L 26 22 C 25 20 27 17 30 17 L 121 7 C 124 7 126 9 127 12 L 131 56 L 138 55 L 133 8 C 132 3 127 -0 122 0 L 27 9 C 22 10 18 15 19 20 L 22 53 Z M 31 77 L 29 55 L 22 56 L 25 78 Z M 34 101 L 32 83 L 25 84 L 27 102 Z M 140 167 L 116 170 C 115 170 115 170 115 170 L 115 165 C 115 165 115 165 115 165 L 140 162 C 140 162 140 162 140 162 L 141 167 C 141 167 140 167 140 167 M 106 171 L 81 174 C 81 174 81 174 81 173 L 80 169 C 80 169 81 168 81 168 L 105 166 C 106 166 106 166 106 166 L 106 171 C 106 171 106 171 106 171 M 71 175 L 47 178 C 46 178 46 177 46 177 L 46 173 C 46 172 46 172 46 172 L 71 169 C 71 169 71 170 71 170 L 71 174 C 72 175 71 175 71 175 M 150 167 L 145 126 L 139 127 L 141 147 C 141 150 139 152 136 152 L 45 162 C 43 162 40 160 40 157 L 34 104 L 28 105 L 35 179 C 36 185 41 188 46 188 L 141 178 C 146 177 150 173 150 167"
+                    android:fillColor="#ffffff"
+                    android:strokeWidth="1"/>
+            <path
+                    android:name="path_4"
+                    android:pathData="M 50 73 L 50 67 C 50 65 48 64 47 65 L 3 70 C 2 71 1 72 0 74 L 0 79 C -0 81 1 81 2 81 L 48 75 C 50 75 51 74 50 73 M 61 96 L 60 90 C 60 88 58 88 57 88 L 13 93 C 12 94 11 95 11 97 L 10 102 C 9 104 11 104 12 104 L 58 98 C 60 98 61 97 61 96 M 49 116 C 49 115 48 114 47 114 L 13 119 C 12 119 11 120 11 121 L 10 126 C 10 127 11 127 12 127 L 48 123 C 49 123 50 122 50 121 Z M 10 55 L 42 51 C 43 51 43 50 43 49 L 43 45 C 43 44 42 43 41 43 L 11 47 C 10 47 9 48 9 49 L 8 53 C 8 54 9 55 10 55"
+                    android:fillColor="#ffcc00"
+                    android:strokeWidth="1"/>
+            <path
+                    android:name="path_5"
+                    android:pathData="M 153 123 C 152 130 146 137 138 138 C 131 138 125 133 126 125 C 126 118 133 111 140 110 C 148 109 153 115 153 123"
+                    android:fillColor="#243d91"
+                    android:strokeWidth="1"/>
+            <path
+                    android:name="path_6"
+                    android:pathData="M 129 85 L 132 61 L 145 60 C 153 60 159 65 159 72 L 161 84 Z M 169 64 C 169 57 163 52 155 52 L 123 53 L 114 123 L 121 122 C 123 112 131 104 141 103 C 150 102 156 107 158 115 L 173 112 Z"
+                    android:fillColor="#ffffff"
+                    android:strokeWidth="1"/>
+        </group>
+    </group>
+</vector>

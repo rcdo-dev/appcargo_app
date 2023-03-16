@@ -1,0 +1,1 @@
+typedef ListMapper<T> = T Function(List<dynamic> json);

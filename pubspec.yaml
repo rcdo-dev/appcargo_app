@@ -1,0 +1,272 @@
+name: app_cargo
+description: App Cargo
+version: 143.0.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Marked as unused by dependency_validator
+  # flutter_cupertino_localizations: ^1.0.1
+  http: any
+  carousel_slider: ^2.0.0
+
+  # Popup menu button
+  show_more_text_popup: ^0.2.0
+
+  # Bluetooth
+  flutter_blue: 0.6.3+1
+
+  uni_links: ^0.4.0
+  url_launcher: ^5.1.1
+  date_format: ^1.0.6
+  intl: ^0.16.0
+
+  # Image chache
+  cached_network_image: ^2.0.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # Marked as unused by dependency_validator
+  # cupertino_icons: ^0.1.2
+
+  flutter_icons:
+  scroll_snap_list: ^0.6.0
+  provider: ^3.0.0
+  # Marked as unused by dependency_validator
+  # flushbar: ^1.7.0
+  json_annotation: ^3.0.0
+  shared_preferences: ^0.5.3
+  percent_indicator: ^2.1.1
+  flutter_masked_text: ^0.8.0
+  flutter_platform_widgets: ^0.30.1
+  numberpicker: ^1.1.0
+  path_provider: ^1.1.2
+  path: ^1.6.2
+  expandable: ^3.0.0+1
+  transparent_image: ^1.0.0
+  package_info: ^0.4.0+12
+
+  image_picker: 0.6.7+22 # from ^0.6.0+19
+  file_picker: ^2.1.7
+  # flutter_video_compress: ^0.3.7+8
+
+  camera: ^0.5.8+5 # from ^0.5.4+3
+  permission: ^0.1.3
+  sqflite: ^1.1.6+3
+  sqflite_migration: ^0.1.2
+  cpf_cnpj_validator: ^1.0.5
+  video_player: ^0.10.2+1
+  photo_view: ^0.5.0
+  barcode_scan: ^1.0.0
+  # qrcode_reader: ^0.4.4
+  # qr: ^1.2.0
+  audioplayers: ^0.13.2
+  ntp: ^1.0.4
+  # Marked as unused by dependency_validator
+  # flutter_ringtone_player: ^1.0.3
+  autocomplete_textfield: ^1.7.3
+  intro_slider: ^2.2.9
+  holding_gesture: ^0.0.3
+  flutter_audio_recorder: ^0.5.5
+  flutter_share: ^1.0.5
+  # flutter_background_geolocation:
+  #   git:
+  #     url: https://github.com/transistorsoft/flutter_background_geolocation.git
+  flutter_background_geolocation: 1.10.1
+
+  flutter_skywalker_core:
+    # path: /home/marcelovbcfilho/Documentos/git/flutter_skywalker_core
+    git:
+      url: git@gitlab.com:newgotecnologia/flutter_skywalker_core.git
+      #ref: 7dfcb4598511d8ec25ae7ed8ff9d491e59642185
+      ref: 38fb6447bf082450b9998d4fd910110345716691
+
+  # String validations
+  # Marked as unused by dependency_validator
+  # validators: ^2.0.0
+  kiwi: ^0.2.0
+  dio: ^2.1.13
+
+  # Firebase
+  # Marked as unused by dependency_validator
+  #  firebase_auth: ^0.14.0+5
+  firebase_auth: ^0.16.1
+  firebase_storage: ^3.0.6
+  firebase_messaging: ^6.0.16
+  cloud_firestore: ^0.12.9+4
+  firebase_core: ^0.5.0
+  firebase_analytics: ^5.0.16
+  firebase_performance: ^0.3.2
+  firebase_dynamic_links: ^0.5.3
+  # firebase_crashlytics: ^0.1.4+1
+
+  facebook_app_events: ^0.7.1
+
+  # Local notifications push
+  flutter_local_notifications: ^1.1.1
+  timezone: ^0.6.1
+  flutter_native_timezone: ^1.0.4
+
+  # Error reporting.
+  sentry: 2.2.0
+
+  #dependency_overrides:
+  #  analyzer: 0.37.1
+  new_version: ^0.0.6
+  webview_flutter: ^0.3.24
+
+dev_dependencies:
+  # Marked as unused by dependency_validator
+  # flutter_test:
+  #  sdk: flutter
+  json_serializable:
+  # Used to simpliffy the creation of Launcher Icons
+  # Marked as unused by dependency_validator
+  # flutter_launcher_icons: ^0.7.2
+
+  # To simplify JSON to DTO transformation and back
+  # Marked as unused by dependency_validator
+  # json_serializable: ^3.2.1
+  build_runner: ^1.7.1
+  # Marked as unused by dependency_validator
+  # image: ^2.1.4
+
+  # https://pub.dev/packages/dependency_validator
+  # To run this executable: pub run dependency_validator
+  # This usage will run the tool and report any missing, under-promoted, over-promoted, and unused dependencies.
+  dependency_validator: ^1.0.0
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/launcher/icon.png"
+  image_path_android: "assets/launcher/icon.png"
+  adaptive_icon_background: "assets/launcher/adaptative_bg.png"
+  adaptive_icon_foreground: "assets/launcher/adaptative_fg.png"
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/600x400.png
+    - assets/background/fundo2@3x.png
+    - assets/images/logo.png
+    - assets/images/logoMenu.png
+    - assets/images/personImage.png
+    - assets/images/loadingImage.png
+    - assets/images/camera.jpg
+    - assets/images/loadingImage.gif
+    - assets/images/user_icon_transparent.png
+    - assets/images/partner.jpg
+
+    - assets/images/cnh_model.png
+    - assets/images/crlv_model.png
+
+    - assets/icons/
+
+    - assets/truckImages/utilitario.png
+    - assets/truckImages/caminhao_3-4.png
+    - assets/truckImages/caminhao.png
+    - assets/truckImages/caminhao-trucado.png
+    - assets/truckImages/caminhao-simples.png
+    - assets/truckImages/caminhao-duplo-direcional-trucado.png
+    - assets/truckImages/caminhao-reboque_6-10-17.png
+    - assets/truckImages/caminhao-reboque_6-10-10-17.png
+    - assets/truckImages/caminhao-trucado-reboque.png
+    - assets/truckImages/caminhao-romeu-e-julieta.png
+    - assets/truckImages/caminhao-trator-semi-reboque_6-10-10.png
+    - assets/truckImages/caminhao-trator-semi-reboque_6-10-17.png
+    - assets/truckImages/caminhao-trator-semi-reboque_6-10-25_5.png
+    - assets/truckImages/caminhao-trator-semi-reboque_6-10-20.png
+    - assets/truckImages/caminhao-trator-semi-reboque_6-10-10-17.png
+    - assets/truckImages/caminhao-trator-semi-reboque_6-10-10-10-10.png
+    - assets/truckImages/caminhao-trator-trucado-semi-reboque_6-17-10.png
+    - assets/truckImages/caminhao-trator-trucado-semi-reboque_6-17-17.png
+    - assets/truckImages/caminhao-trator-trucado-semi-reboque_6-17-25_5.png
+    - assets/truckImages/caminhao-trator-trucado-semi-reboque_6-17-10-10.png
+    - assets/truckImages/caminhao-trator-trucado-semi-reboque_6-17-10-17.png
+    - assets/truckImages/caminhao-trator-trucado-semi-reboque_6-17-10-10-10.png
+    - assets/truckImages/treminhao.png
+    - assets/truckImages/bitrem.png
+    - assets/truckImages/rodotrem.png
+    - assets/truckImages/bitrem-8-eixos.png
+    - assets/truckImages/bitrem-9-eixos.png
+
+    - assets/truckImages/tritrem.png
+
+    - assets/images/profile_icon.png
+
+    - assets/truckPhotoIcons/cavalo.png
+    - assets/truckPhotoIcons/frente.png
+    - assets/truckPhotoIcons/lateral1.png
+    - assets/truckPhotoIcons/lateral2.png
+    - assets/truckPhotoIcons/traseira.png
+
+    - assets/intro_images/step1.png
+    - assets/intro_images/step2.png
+    - assets/intro_images/step3.png
+    - assets/intro_images/step4.png
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+        # These are commented and should remain that way for as long as they are not needed
+  #        - asset: assets/fonts/Lato-Hairline.ttf
+  #          weight: 100
+  #        - asset: assets/fonts/Lato-HairlineItalic.ttf
+  #          style: italic
+  #          weight: 100
+  #        - asset: assets/fonts/Lato-Light.ttf
+  #          weight: 300
+  #        - asset: assets/fonts/Lato-LightItalic.ttf
+  #          style: italic
+  #          weight: 300
+  #        - asset: assets/fonts/Lato-BoldItalic.ttf
+  #          style: italic
+  #          weight: 700
+  #        - asset: assets/fonts/Lato-Black.ttf
+  #          weight: 900
+  #        - asset: assets/fonts/Lato-BlackItalic.ttf
+  #          style: italic
+  #          weight: 900
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

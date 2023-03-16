@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "567723203066",
+    "project_id": "newgoappcargo",
+    "storage_bucket": "newgoappcargo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567723203066:android:4cfbc9fa0da8d276cdac43",
+        "android_client_info": {
+          "package_name": "br.com.appcargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567723203066-4735aullpu5tkab0e453kme3o3nm0t83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnr06LwHFnFe5teZeWnrJuy1OHhoYOsWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567723203066-4735aullpu5tkab0e453kme3o3nm0t83.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "567723203066-n42lihu7l2qo9o1vjt9fo42a2lq6dppu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "exit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
